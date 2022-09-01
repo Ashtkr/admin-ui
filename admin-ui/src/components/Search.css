@@ -1,0 +1,19 @@
+.search-bar{
+    margin-left: 160px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    width: 80%;
+    background-color: rgb(184, 246, 216);
+}
+
+@media only screen and (max-width: 600px) {
+    .search-bar{
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+        width: 90%;
+        background-color: rgb(184, 246, 216);
+    }
+  }

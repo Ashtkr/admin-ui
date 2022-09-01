@@ -1,0 +1,27 @@
+.header{
+    box-sizing: border-box;
+    display: flex;
+    background-color: black;
+    height: 60px;
+    color: whitesmoke;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: roboto;
+    margin: 0;
+    /* border-bottom: 1px solid black; */
+}
+
+.title{
+    padding-left: 40px;
+}
+
+.title span{
+    color: rgb(49, 219, 176);
+}
+
+@media only screen and (max-width: 600px) {
+    .title {
+      padding-left: 25px;
+    }
+  }

@@ -1,0 +1,46 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.style-pagination {
+    margin: 0.5rem;
+    color: rgb(41, 142, 117);
+    border: 2px solid rgb(41, 142, 117);
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-sizing: border-box;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+.style-pagination:hover {
+    color: rgb(41, 142, 117);
+    background-color: white;
+}
+
+.style-pagination-selected {
+    margin: 0.2rem;
+    color: white;
+    background-color: rgb(4, 153, 116);
+    border: 2px solid rgb(41, 142, 117);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    box-sizing: border-box;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 30%;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .mobileView {
+      display: none;
+    }
+  }
