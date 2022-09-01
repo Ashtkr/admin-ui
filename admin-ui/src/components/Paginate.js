@@ -10,8 +10,7 @@ const Paginate = ({ userPerPage, totalUser, handlePageNumber }) => {
   }
 
   return (
-    <div>
-      <ul style={{ textDecoration: "none" }}>
+      <ul>
         <div className="pagination">
             <div
               className="style-pagination"
@@ -71,7 +70,6 @@ const Paginate = ({ userPerPage, totalUser, handlePageNumber }) => {
             </div>
         </div>
       </ul>
-    </div>
   );
 };
 
