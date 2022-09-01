@@ -6,8 +6,9 @@
 
 .style-pagination {
     margin: 0.5rem;
-    color: rgb(41, 142, 117);
-    border: 2px solid rgb(41, 142, 117);
+    color: rgb(41, 68, 142);
+    background-color: white;
+    border: 2px solid rgb(41, 68, 142);
     font-size: 16px;
     font-weight: bold;
     text-align: center;
@@ -19,15 +20,15 @@
 }
 
 .style-pagination:hover {
-    color: rgb(41, 142, 117);
-    background-color: white;
+    color: white;
+    background-color: rgb(41, 68, 142);;
 }
 
 .style-pagination-selected {
     margin: 0.2rem;
     color: white;
-    background-color: rgb(4, 153, 116);
-    border: 2px solid rgb(41, 142, 117);
+    background-color: rgb(41, 68, 142);
+    border: 2px solid rgb(41, 68, 142);
     font-size: 18px;
     font-weight: 700;
     text-align: center;
