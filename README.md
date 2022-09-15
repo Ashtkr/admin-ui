@@ -1,5 +1,5 @@
 # admin-ui .\
-Link - [admin_ui](https://631073dab51856441ca5a8d0--adminui-ashutosh.netlify.app/)
+Link - [adminUI](https://631073dab51856441ca5a8d0--adminui-ashutosh.netlify.app/)
 
 geektrust frontend challenge
 
